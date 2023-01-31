@@ -6,10 +6,7 @@ import random
 # generates addition problems using 0-9 level 1
 # generates addition problems using 10-99 level 2
 # generates addition problems using 100-999 level3
-
-
 mylist = ["Correcto!", "Muy Bien!", "Sigue asi!"]
-
 
 while True:
     cal = input("Operacion en signo que desea realizar?: ")
@@ -53,8 +50,3 @@ while True:
             break
         else:
           break
-
-
-
-        
-
