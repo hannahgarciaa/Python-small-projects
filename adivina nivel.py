@@ -1,5 +1,5 @@
-# sourcery skip: remove-redundant-if
 import random
+import time
 
 while True:
     try:
@@ -11,8 +11,10 @@ while True:
 
 
 n = random.randint(1, nivel)
-op = 10
-print("Tienes 10 oportunidades")
+op = int(input("Elige un numero de oportunidades: "))
+print(f"Tienes {op} oportunidades")
+print("Que comience el juego...🃏")
+time.sleep(2)
 while True:
     
     try:
